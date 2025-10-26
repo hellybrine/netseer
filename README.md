@@ -40,9 +40,9 @@ NetSeer bridges that gap — combining eBPF-powered packet capture with lightwei
                    │
         ┌──────────▼──────────┐
         │  NetSeer Core (py)  │
-        │  ├─ Flow Analysis    │
-        │  ├─ Protocol Stats   │
-        │  └─ System Metrics   │
+        │  ├─ Flow Analysis   │
+        │  ├─ Protocol Stats  │
+        │  └─ System Metrics  │
         └──────────┬──────────┘
                    │
             REST + Web UI
