@@ -128,22 +128,6 @@ You’ll see:
 
 ---
 
-## 🛠️ Configuration
-
-Edit `config.yml` to adjust:
-
-```yaml
-interface: wlan0
-refresh_interval: 3
-export_api: true
-dashboard_port: 5100
-log_level: info
-```
-
-Then restart the service.
-
----
-
 ## 🧱 System Integration (Optional)
 
 You can set up NetSeer as a background service:
@@ -181,7 +165,7 @@ sudo systemctl start netseer
 * [ ] Prometheus-compatible metrics exporter
 * [ ] Custom rule-based alerting
 * [ ] Sensor chaining for multi-node visibility
-* [ ] Integration with Pi-hole logs
+* [ ] Integration with DNS Sinkhole logs
 
 ---
 
@@ -195,7 +179,6 @@ For safety, avoid exposing the dashboard to the internet directly — use LAN or
 
 ## 📚 License
 
-MIT License © 2025 — [Your Name or Organization]
 See [LICENSE](./LICENSE) for full text.
 
 ---
