@@ -1,0 +1,12 @@
+[Unit]
+Description=netseer
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+ExecStart=/usr/bin/netseer start-no-daemon
+PIDFile=/run/netseer.pid
+
+[Install]
+WantedBy=multi-user.target
