@@ -173,7 +173,7 @@ sudo systemctl start netseer
 
 NetSeer runs locally and does **not** transmit data externally.
 No packets leave your network; no analytics are shared.
-For safety, avoid exposing the dashboard to the internet directly — use LAN or VPN access only.
+For safety, avoid exposing the dashboard to the internet directly; use LAN or VPN access only.
 
 ---
 
@@ -183,7 +183,5 @@ See [LICENSE](./LICENSE) for full text.
 
 ---
 
-## 🧭 Why NetSeer?
-
 Because network visibility shouldn’t require a data center.
-NetSeer is about **understanding your traffic** — quietly, efficiently, and entirely under your control.
+NetSeer is about **understanding your traffic** — efficiently and entirely under your control.
