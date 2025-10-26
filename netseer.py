@@ -2184,7 +2184,7 @@ def start_netseer():
     are welcome to redistribute it under certain conditions. See version 3 of the
     GNU General Public License for details.
 
-    website: https://elesiuta.github.io/netseer
+    website: https://github.com/hellybrine/netseer
     version: {VERSION} ({os.path.abspath(__file__)})
     config and log files: {BASE_PATH}
 
