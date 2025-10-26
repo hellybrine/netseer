@@ -65,7 +65,7 @@ The system combines **BCC (BPF Compiler Collection)** for kernel-level packet in
 1. **Clone the repository or download the sources**
 
    ```bash
-   git clone https://github.com/yourusername/netseer.git
+   git clone https://github.com/hellybrine/netseer.git
    cd netseer
    ```
 
